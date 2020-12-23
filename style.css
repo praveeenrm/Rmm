@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 * {
   margin: 0px;
@@ -10,6 +12,7 @@
 
 body {
   font-family: sans-serif;
+  background: black;
 }
 
 nav {
@@ -164,14 +167,15 @@ nav {
 
 /* HERO */
 .hero {
-  background: url("/images/bg.jpg");
+  background: url("/images/m.jpg");
   background-size: cover;
-  background-position: center;
+  background-attachment: fixed;
+  color: white;
 }
 .top {
   height: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -182,9 +186,8 @@ nav {
   margin-top: 2rem;
 }
 .text h1 {
-  position: relative;
-  font-size: 4rem;
-  margin: 0px;
+  font-size: 4.5rem;
+  margin: 1rem 0rem;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -213,7 +216,8 @@ nav {
 /* SERVICES */
 .services {
   width: 100%;
-  background: #fafafa;
+  background: #111;
+  color: white;
   margin: 0rem auto;
   padding: 5rem 0rem;
   display: flex;
@@ -234,7 +238,8 @@ nav {
   margin-bottom: 1rem;
 }
 .first h1 {
-  font-family: "Open Sans", sans-serif;
+  color: #a3d2ca;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   line-height: 3rem;
   margin-bottom: 1.5rem;
@@ -245,9 +250,10 @@ nav {
   font-weight: 300;
   margin-bottom: 1rem;
   line-height: 1.5rem;
-  color: #444;
+  color: #a3d2ca;
 }
 .first p {
+  /* color: #a3d2ca; */
   font-family: "Roboto", sans-serif;
   line-height: 1.5rem;
 }
@@ -267,7 +273,8 @@ nav {
 .box i {
   padding: 0rem 0.5rem;
   font-size: 3rem;
-  color: rgb(127, 177, 127);
+  /* color: rgb(127, 177, 127); */
+  color: #a3d2ca;
 }
 .box div {
   padding: 0rem 0.5rem;
@@ -284,7 +291,9 @@ nav {
 
 /* CALL */
 .call {
-  background: url("/images/bg3.jpg");
+  /* background: url("/images/bg3.jpg"); */
+  background: #111;
+  color: white;
   background-size: cover;
   padding: 5rem 0rem;
   margin: 0rem auto;
@@ -297,7 +306,8 @@ nav {
   margin-bottom: 1rem;
 }
 .call h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: #a3d2ca;
   font-size: 2.5rem;
   line-height: 2.3rem;
   margin-bottom: 2rem;
@@ -307,7 +317,7 @@ nav {
   width: 800px;
   font-size: 18px;
   font-style: italic;
-  color: #333;
+  
   line-height: 25px;
 }
 
@@ -317,23 +327,26 @@ nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background: url("/images/bg-new1-2.jpg");
+  /* background: url("/images/bg-new1-2.jpg"); */
+  background: #111;
+  color: white;
   background-size: cover;
   background-attachment: fixed;
 }
 .rone {
-  width: 600px;
+  width: 500px;
   margin: 1rem;
 }
 .rone h2 {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  font-size: 1.2em;
+  font-size: 1rem;
   margin-bottom: 1rem;
 }
 .rone h1 {
-  font-family: "Open Sans", sans-serif;
+  color: #a3d2ca;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   line-height: 2.3rem;
   margin-bottom: 2rem;
@@ -354,7 +367,8 @@ nav {
 }
 .rbox i {
   font-size: 2rem;
-  color: rgb(127, 177, 127);
+  /* color: rgb(127, 177, 127); */
+  color: #a3d2ca;
 }
 .rbox div {
   margin: 0rem 1rem;
@@ -367,12 +381,12 @@ nav {
 
 /* FOOTER */
 footer {
-  background: #222;
+  background: #111;
   color: white;
 }
 .footer-flex {
   font-family: "Roboto", sans-serif;
-  background: #222;
+  background: #111;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -522,7 +536,7 @@ footer {
     margin: 0rem 1rem;
   }
   .box {
-    background: #fafafa;
+    /* background: #fafafa; */
     padding: 1rem 0.5rem;
     margin: 1rem 0rem;
   }
@@ -537,7 +551,7 @@ footer {
   }
   .call p {
     font-size: 16px;
-    color: #222;
+    color: white;
     width: fit-content;
   }
   .call h1 {
