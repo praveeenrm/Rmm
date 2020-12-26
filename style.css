@@ -32,10 +32,10 @@ nav {
 }
 .logo h1 a {
   text-decoration: none;
-  color: #3f51b5;
+  color: #333;
 }
 .logo h1 a:hover {
-  color: #4d63db;
+  color: #555;
 }
 .nav-links {
   display: flex;
@@ -97,15 +97,15 @@ nav {
 }
 
 .nav-links li:last-child a{
-    background: #3f51b5;
+    background: #333;
     display: inline-block;
     padding: 0.5rem 1rem;
-    color: white;
+    color: #fff;
     border-radius: 20px;
 }
 
 .nav-links li:last-child a:hover {
-  background: #4d63db;
+  background: #555;
 }
 @media (max-width: 1024px) {
   .burger {
@@ -134,7 +134,7 @@ nav {
     transition: all 0.3s ease-in-out;
   }
   .nav-links li:last-child a:hover {
-    background: #4d63db;
+    background: #333;
     color: white;
   }
 
@@ -197,12 +197,12 @@ nav {
   margin: 0.5rem 0rem;
 }
 .text a {
+  background: #333;
   color: white;
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
   margin: 1rem 0rem;
-  background: #3f51b5;
   padding: 1rem 3rem;
   border-radius: 50px;
   font-size: 14px;
@@ -210,7 +210,8 @@ nav {
   transition: all 0.3s ease;
 }
 .text a:hover {
-  background: #495dce;
+  color: #333;
+  background: white;
 }
 
 /* SERVICES */
